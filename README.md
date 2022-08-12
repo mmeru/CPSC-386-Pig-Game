@@ -1,7 +1,3 @@
-![Header](../../actions/workflows/py-header.yml/badge.svg)
-![Lint](../../actions/workflows/py-lint.yml/badge.svg)
-![Format](../../actions/workflows/py-format.yml/badge.svg)
-
 # Pig - A Die Game
 
 The objectives of this exercise are:
@@ -67,24 +63,3 @@ If you would like to use audio effects or a soundtrack, you may however the prog
 The _computer AI_ player does not need to be a sophisticated machine. You may make the _computer AI_ as simple or as sophisticated as you like. However, the _computer AI_ should not appear to be unpredictable. The _computer AI_ may be defined as a separate class, a sub-class of the player class, or a special case of the player class. Since all players have a name, the _computer AI_ must be named as well.
 
 Since this game is a terminal based game, use [sleep](https://docs.python.org/3/library/time.html?highlight=sleep#time.sleep) or other similar mechanism to slow down the game to make the text appear on the screen slowly. Give the player an opportunity to read the text. A typewriter effect can be achieved with some creative use `time.sleep` with values less than 1 second.
-
-## Don't Forget
-
-Please remember that:
-
-* You need to put a header in every file per the [instructions](https://docs.google.com/document/d/1OgC3_82oZHpTvoemGXu84FAdnshve4BCvtwaXZEJ9FY/edit?usp=sharing) shared in Canvas.
-* You need to follow [PEP-8](https://www.python.org/dev/peps/pep-0008/); use linters and style checkers such as `pycodestyle`, `pylint`, and `black`.
-* You need to test your program. If it does not run correctly or if it unplayable then your project will receive poor marks.
-
-# Rubric
-
-This exercise is worth 10 points. There is a total of 10 points possible. Your program must not have any syntax errors before it is graded. Submissions that have a syntax error or throw an uncaught exception will be assigned a score of 0.
-* Functionality (6 points): Your submission shall be assessed for the appropriate constructs and strategies to address the exercise. A program the passes the instructor's tests completely receives full marks. A program that partially passes the instructors tests receives partial-marks. A program that fails the majority or all the tests receives no marks.
-    * A game that does not have a _computer AI_ player forfeits all marks.
-    * A game that is not multiplayer looses 3 points
-    * A game that is not defined in separate files using a Python package per the requirements looses 5 points.
-    * A game that does not execute with the command `./pig.py` looses 3 points.
-    * A project that does not have the required individual files looses 4 points.
-    * Partial implementation of the rules shall loose 1-5 points depending on the number of requirements not met.
-* Format & Readability (4 point): Your submission shall be assessed by checking whether your code passess the style and format check, as well as how well it follows the proper naming conventions, and internal documentation guidelines. Git log messages are an integral part of how readable your project is. Failure to include a header forfeits all marks. Not conforming to PEP-8 forfeits all marks.
-
