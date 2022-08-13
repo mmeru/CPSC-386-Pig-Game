@@ -1,4 +1,4 @@
-CPSC 386 Project
+CSUF CPSC 386 Project
 
 # Pig - A Die Game
 
