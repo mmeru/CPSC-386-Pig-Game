@@ -1,13 +1,8 @@
+CPSC 386 Project
+
 # Pig - A Die Game
 
-The objectives of this exercise are:
-
-* Verify that a student's development environment is set up
-* Refresh our memory on how to write a program to a specification
-* Improving our programming practices
-* Learn about the Python programming language and it's standard library
-
-We shall all write the dice game named [Pig](https://en.wikipedia.org/wiki/Pig_(dice_game)). Pig is a game that is probably quite old and was first described in print by [John Scarne](https://en.wikipedia.org/wiki/John_Scarne) (famous for [Scarne's four aces trick](https://youtu.be/0Zmy2WlbSpg)).
+Pig is a game that is probably quite old and was first described in print by [John Scarne](https://en.wikipedia.org/wiki/John_Scarne) (famous for [Scarne's four aces trick](https://youtu.be/0Zmy2WlbSpg)).
 
 The game uses only one six sided die and is played with 2 or more players. Players take turns rolling the die and tabulating a score according to the rules. The first player to score 100 or more points wins.
 
